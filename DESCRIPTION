@@ -1,0 +1,9 @@
+Package: crypto
+Title: An easy way of encrypting/decrypting text files.
+Version: 0.1
+Authors@R: "Marco Plebani <marcoplebani85@gmail.com> [aut, cre]"
+Description: The package provides an easy way of encrypting/decrypting text files. The encryption system is unlocked by a numerical key, called "seed", that needs to be shared by sender and receiver(s).
+Depends: R (>= 3.1.2)
+License: GPL-3
+LazyData: true
+Imports: rlist
